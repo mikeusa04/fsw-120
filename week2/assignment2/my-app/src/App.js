@@ -6,7 +6,7 @@ import './style.css'
 function App() {
   const cardComponents = array.map(card => <Card key={card.id} place={card.place} price={card.price} timeToGo={card.timeToGo} />)
   return (
-    <div>
+    <div className="cards">
       {cardComponents}
     </div>
   );
