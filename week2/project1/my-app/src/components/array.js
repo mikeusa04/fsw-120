@@ -1,6 +1,7 @@
 let array = [
 
     {
+        id: "1",
 
         title: "Man must explore, and this is exploration at its greatest",
 
@@ -11,6 +12,7 @@ let array = [
         date: "September 24, 2019"
 
     },{
+        id: "2",
 
         title: "I believe every human has a finite number of heartbeats. I don't intend to waste any of mine.",
 
@@ -21,6 +23,7 @@ let array = [
         date: "September 18, 2019"
 
     },{
+        id: "3",
 
         title: "Science has not yet mastered prophecy",
 
@@ -31,6 +34,7 @@ let array = [
         date: "August 24, 2019"
 
     },{
+        id: "4",
 
         title: "Failure is not an option",
 
@@ -43,3 +47,4 @@ let array = [
     }
 
 ]
+export default array

@@ -1,0 +1,12 @@
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    margin: 0;
+}
+.navbar-item {
+     margin: auto;
+     text-decoration: none;
+     color: whitesmoke;
+}
