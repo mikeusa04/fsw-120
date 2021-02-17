@@ -2,7 +2,11 @@
  Render an <App /> component
  Create the <App /> component from scratch
  Have the <App /> component render 3 or 4 checkboxes with paragraphs or spans next to it
- like you're making a todo list with some hard-coded items on it*/
+ like you're making a todo list with some hard-coded items on it
+ to create react app
+ npx create-react-app my-app
+ cd my-app
+ npm start */
 
 
 
