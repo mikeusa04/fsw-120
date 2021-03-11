@@ -35,23 +35,23 @@ class App extends Component {
     return (
       <div className="App">
         <h1>Calculator App</h1>
-        <div>
+        <div className="numbers">
           {this.state.numbers.map((number, index) => {
             return (
-              <button key={index} onClick={() => this.numberClick(number)}> {number} </button>
+              <button key={index} onClick={() => this.numberClick(number)} className="button"> {number} </button>
             )
           })}
         </div>
         <div>
           {this.state.operators.map((operator, index) => {
             return (
-              <button key={index} onClick={() => this.operatorClick(operator)}> {operator} </button>
+              <button key={index} onClick={() => this.operatorClick(operator)} className="operators"> {operator} </button>
             )
           })}
         </div>
         <div>
-          <p>The Result is : {this.state.result}</p>
-          <p>The Equation is : {this.state.equation}</p>
+          <h2>The Equation is : {this.state.equation}</h2>
+          <h1>The Result is : {this.state.result}</h1>
         </div>
       </div>
     );
